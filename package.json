@@ -1,0 +1,24 @@
+{
+  "name": "generic_personal_data",
+  "version": "1.0.0",
+  "description": "Library for generic personal data",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "module": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeMorini/generic_personal_data.git"
+  },
+  "keywords": [],
+  "author": "jemorini <jemorini26@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JeMorini/generic_personal_data/issues"
+  },
+  "homepage": "https://github.com/JeMorini/generic_personal_data#readme",
+  "dependencies": {
+    "typescript": "^4.5.4"
+  }
+}
