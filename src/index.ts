@@ -7,10 +7,10 @@ import {
   americanLastName,
 } from "./constants/name";
 
-function genericPersonalData(prop: string) {
+function genericPersonalData(country: string) {
   const data = {
     masculineName:
-      prop === "br"
+      country === "br"
         ? `${
             brazilianMasculineFirstName[
               (
@@ -36,7 +36,7 @@ function genericPersonalData(prop: string) {
             ]
           }`,
     feminineName:
-      prop === "br"
+      country === "br"
         ? `${
             brazilianFeminineFirstName[
               (
