@@ -6,6 +6,7 @@ import {
   americanFeminineFirstName,
   americanLastName,
 } from "./constants/name";
+import { brazilianPets, americanPets } from "./constants/pet";
 
 function genericPersonalData(country: string) {
   const data = {
@@ -75,10 +76,18 @@ function genericPersonalData(country: string) {
       Math.random() * (99 - 10) +
       10
     ).toFixed(0)}-XXXX`,
+    favoritePet:
+      country === "br"
+        ? brazilianPets[
+            (Math.random() * (brazilianPets.length - 1) - 0).toFixed(0)
+          ]
+        : americanPets[
+            (Math.random() * (americanPets.length - 1) - 0).toFixed(0)
+          ],
   };
   return data;
 }
 
-console.log(genericPersonalData("us").feminineName);
+console.log(genericPersonalData("us").favoritePet);
 
 export { genericPersonalData };
