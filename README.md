@@ -13,7 +13,7 @@ $ yarn add generic-personal-data
 ## Examples
 
 ```
-import { genericPersonalData } from "./index";
+import { genericPersonalData } from "generic-data-person";
 
 // in english
 const masculineName = genericPersonalData("us").masculineName;
