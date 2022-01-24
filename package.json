@@ -1,5 +1,5 @@
 {
-  "name": "generic_personal_data",
+  "name": "generic-personal-data",
   "version": "1.0.0",
   "description": "Library for generic personal data",
   "main": "src/index.ts",
@@ -11,7 +11,11 @@
     "type": "git",
     "url": "git+https://github.com/JeMorini/generic_personal_data.git"
   },
-  "keywords": [],
+  "keywords": [
+    "generic",
+    "data",
+    "person"
+  ],
   "author": "jemorini <jemorini26@gmail.com>",
   "license": "ISC",
   "bugs": {

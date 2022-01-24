@@ -88,6 +88,4 @@ function genericPersonalData(country: string) {
   return data;
 }
 
-console.log(genericPersonalData("us").favoritePet);
-
 export { genericPersonalData };
