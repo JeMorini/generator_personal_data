@@ -5,10 +5,10 @@ import {
   americanMasculineFirstName,
   americanFeminineFirstName,
   americanLastName,
-} from "./constants/name";
-import { brazilianPets, americanPets } from "./constants/pet";
+} from "./constants/name.js";
+import { brazilianPets, americanPets } from "./constants/pet.js";
 
-function genericPersonalData(country: string) {
+export default function genericPersonalData(country) {
   const data = {
     masculineName:
       country === "br"
@@ -87,5 +87,3 @@ function genericPersonalData(country: string) {
   };
   return data;
 }
-
-export { genericPersonalData };
