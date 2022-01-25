@@ -8,7 +8,7 @@ import {
 } from "./constants/name.js";
 import { brazilianPets, americanPets } from "./constants/pet.js";
 
-export default function genericPersonalData(country) {
+function genericPersonalData(country) {
   const data = {
     masculineName:
       country === "br"
@@ -87,3 +87,5 @@ export default function genericPersonalData(country) {
   };
   return data;
 }
+
+export { genericPersonalData };
