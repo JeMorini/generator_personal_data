@@ -1,6 +1,6 @@
 {
-  "name": "generic-personal-data",
-  "version": "1.0.0",
+  "name": "generator-personal-data",
+  "version": "1.0.1",
   "description": "Library for generic personal data",
   "main": "src/index.js",
   "scripts": {
@@ -9,7 +9,7 @@
   "type": "module",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JeMorini/generic_personal_data.git"
+    "url": "git+https://github.com/JeMorini/generator_personal_data.git"
   },
   "keywords": [
     "generic",
@@ -17,12 +17,12 @@
     "person",
     "javascript",
     "typescript",
-    "test"
+    "testing"
   ],
   "author": "jemorini <jemorini26@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JeMorini/generic_personal_data/issues"
+    "url": "https://github.com/JeMorini/generator_personal_data/issues"
   },
-  "homepage": "https://github.com/JeMorini/generic_personal_data#readme"
+  "homepage": "https://github.com/JeMorini/generator_personal_data#readme"
 }

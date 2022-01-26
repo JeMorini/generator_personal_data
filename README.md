@@ -1,4 +1,4 @@
-# generic-personal-data
+# generator-personal-data
 
 ## Description
 
@@ -7,36 +7,36 @@ Library for generic personal data.
 ## Install
 
 ```
-$ yarn add generic-personal-data
+$ yarn add generator-personal-data
 ```
 
 ## Examples
 
 ```
-import { genericPersonalData } from "generic-data-person";
+import { generatorPersonalData } from "generator-personal-data";
 
 // in english
-const masculineName = genericPersonalData("us").masculineName;
+const masculineName = generatorPersonalData("us").masculineName;
 // return ${random name}
 
 // in portuguese
-const masculineName = genericPersonalData("br").masculineName;
+const masculineName = generatorPersonalData("br").masculineName;
 // return ${random name}
 
 // in english
-const feminineName = genericPersonalData("us").feminineName;
+const feminineName = generatorPersonalData("us").feminineName;
 // return ${random name}
 
 // in portuguese
-const feminineName = genericPersonalData("br").feminineName;
+const feminineName = generatorPersonalData("br").feminineName;
 // return ${random name}
 
 // in english
-const midAge = genericPersonalData("us").midAge;
+const midAge = generatorPersonalData("us").midAge;
 // return ${random age}
 
 // in portuguese
-const midAge = genericPersonalData("br").midAge;
+const midAge = generatorPersonalData("br").midAge;
 // return ${random age}
 
 ```
@@ -44,7 +44,7 @@ const midAge = genericPersonalData("br").midAge;
 ## Documentation
 
 ```
-genericPersonalData(country) "br" or "us"
+generatorPersonalData(country) "br" or "us"
 
 Props                     Type                      Description                                 Usage
 -----------------------------------------------------------------------------------------------------------
