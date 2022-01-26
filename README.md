@@ -2,7 +2,7 @@
 
 ## Description
 
-Library for generic personal data.
+React/React-Native library for generic personal data
 
 //Only JS for now
 

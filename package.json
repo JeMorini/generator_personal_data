@@ -1,7 +1,7 @@
 {
   "name": "generator-personal-data",
-  "version": "1.0.7",
-  "description": "Library for generic personal data",
+  "version": "1.0.8",
+  "description": "React/React-Native library for generic personal data",
   "main": "src/index.js",
   "scripts": {
     "start": "node src/index.js"
@@ -12,12 +12,14 @@
     "url": "git+https://github.com/JeMorini/generator_personal_data.git"
   },
   "keywords": [
+    "generator",
     "generic",
     "data",
     "person",
     "javascript",
-    "typescript",
-    "testing"
+    "testing",
+    "react",
+    "react-native"
   ],
   "author": "jemorini <jemorini26@gmail.com>",
   "license": "ISC",
