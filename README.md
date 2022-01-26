@@ -4,6 +4,8 @@
 
 Library for generic personal data.
 
+//Only JS for now
+
 ## Install
 
 ```
